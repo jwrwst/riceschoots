@@ -1,4 +1,4 @@
-package cn.riceschoots.growth.riceschootssystemprovider;
+package cn.riceschoots.growth.framework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
