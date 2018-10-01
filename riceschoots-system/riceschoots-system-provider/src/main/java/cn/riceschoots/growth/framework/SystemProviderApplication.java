@@ -9,9 +9,8 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-@Import({DynamicDataSourceRegister.class, FdfsClientConfig.class})
 @SpringBootApplication
-@EnableAutoConfiguration
+@Import({DynamicDataSourceRegister.class, FdfsClientConfig.class})
 public class SystemProviderApplication {
     private static final Logger LOGGER = LoggerFactory.getLogger(SystemProviderApplication.class);
 

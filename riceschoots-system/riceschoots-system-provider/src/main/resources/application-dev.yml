@@ -71,10 +71,5 @@ spring:
       #spring.datasource.useGlobalDataSourceStat=true
 
 mybatis:
-  config-locations: classpath:mybatis-config.xml
-  mapper-locations: classpath:mybatis/mapper/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
-    default-fetch-size: 50
-    default-statement-timeout: 10
-    auto-mapping-unknown-column-behavior: WARNING
+  config-location: classpath*:mybatis-config.xml
+  mapper-locations: classpath*:mybatis/**/*.xml
