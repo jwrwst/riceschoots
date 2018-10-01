@@ -71,5 +71,5 @@ spring:
       #spring.datasource.useGlobalDataSourceStat=true
 
 mybatis:
-  config-location: classpath*:mybatis-config.xml
-  mapper-locations: classpath*:mybatis/**/*.xml
+  config-location: classpath:mybatis-config.xml
+#  mapper-locations: classpath*: mybatis/**/*.xml

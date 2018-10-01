@@ -6,7 +6,7 @@
 	<groupId>com.riceschoots.growth.web</groupId>
 	<artifactId>riceschoots-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>riceschoots-web</name>
 	<description>Demo project for Spring Boot</description>
@@ -53,11 +53,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <!--springboot 监控-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!--springboot 2.0.5.RELEASE end-->
     </dependencies>

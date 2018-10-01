@@ -1,6 +1,5 @@
 package cn.riceschoots.growth.framework;
 import cn.riceschoots.growth.framework.common.DynamicDataSourceRegister;
-import com.github.tobato.fastdfs.FdfsClientConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.Banner;
@@ -10,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
-@Import({DynamicDataSourceRegister.class, FdfsClientConfig.class})
+@Import({DynamicDataSourceRegister.class})
 public class SystemProviderApplication {
     private static final Logger LOGGER = LoggerFactory.getLogger(SystemProviderApplication.class);
 
