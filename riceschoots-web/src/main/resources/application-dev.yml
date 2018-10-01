@@ -1,2 +1,53 @@
 server:
   port: 8018
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka,http://localhost:1112/eureka
+# ribbon配置参数
+ribbon:
+  ConnectionTimeout: 500
+  ReadTimeout: 500
+riceschoots-provider:
+  ribbon:
+    ConnectionTimeout: 500
+    ReadTimeout: 2000
+    OkToRetryOnAllOperations: true
+    MaxAutoRetriesNextServer: 2
+    MaxAutoRetries: 1
+
+# hystrix熔断器相关配置
+# 此处熔断器的超时时间一定要比ribbon的超时时间长，否则熔断超时后就返回服务降级后的结果
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+
+# feign相关配置
+feign:
+  compression:
+    request:
+      # 对请求消息压缩
+      enabled: true
+      # 需要压缩的请求消息格式
+      mime-types: text/html,application/xml,application/json
+      # 请求压缩的大小下限，只有超过这个大小的请求才会进行压缩
+      min-request-size: 2048
+    response:
+      enabled: true
+
+# feign的日志配置
+logging:
+  level:
+    # 为指定的feign客户端设置日志级别，通过Feign客户端接口的完整路径定义
+    cn:
+      riceschoots:
+        growth:
+          web:
+            RafactorHelloService: DEBUG
+
