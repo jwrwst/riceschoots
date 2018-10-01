@@ -72,7 +72,7 @@
 
         </plugin>
 
-        <plugin interceptor="cn.riceschoots.growth.framework.datasource.DynamicPlugin">
+        <plugin interceptor="cn.riceschoots.api.framework.datasource.DynamicPlugin">
         </plugin>
 
     </plugins>

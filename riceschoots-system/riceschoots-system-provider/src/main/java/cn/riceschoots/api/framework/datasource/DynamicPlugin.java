@@ -1,4 +1,4 @@
-package cn.riceschoots.growth.framework.datasource;
+package cn.riceschoots.api.framework.datasource;
 
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.executor.keygen.SelectKeyGenerator;

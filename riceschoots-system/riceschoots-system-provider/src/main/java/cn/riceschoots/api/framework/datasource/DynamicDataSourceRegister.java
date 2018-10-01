@@ -1,7 +1,4 @@
-package cn.riceschoots.growth.framework.common;
-import cn.riceschoots.growth.framework.datasource.DynamicDataSource;
-import cn.riceschoots.growth.framework.datasource.DynamicDataSourceGlobal;
-import cn.riceschoots.growth.framework.datasource.DynamicDataSourceHolder;
+package cn.riceschoots.api.framework.datasource;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import org.apache.ibatis.session.SqlSessionFactory;

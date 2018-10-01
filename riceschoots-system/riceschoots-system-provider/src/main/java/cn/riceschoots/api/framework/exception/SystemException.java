@@ -1,4 +1,4 @@
-package cn.riceschoots.growth.framework.exception;
+package cn.riceschoots.api.framework.exception;
 
 /**
  * 系统业务异常.

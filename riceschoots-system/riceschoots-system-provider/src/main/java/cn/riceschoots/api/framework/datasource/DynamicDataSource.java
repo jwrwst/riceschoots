@@ -1,4 +1,4 @@
-package cn.riceschoots.growth.framework.datasource;
+package cn.riceschoots.api.framework.datasource;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.util.StringUtils;

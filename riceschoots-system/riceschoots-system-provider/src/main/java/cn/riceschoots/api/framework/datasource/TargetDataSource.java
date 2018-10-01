@@ -1,4 +1,4 @@
-package cn.riceschoots.growth.framework.common;
+package cn.riceschoots.api.framework.datasource;
 
 import java.lang.annotation.*;
 
