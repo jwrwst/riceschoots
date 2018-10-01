@@ -26,10 +26,10 @@
         </dependency>
     </dependencies>
 
-    <!--加载配置信息 start-->
+
+    <!--加载配置信息 end-->
     <build>
         <resources>
-            <!--加载目录哪些配置信息-->
             <resource>
                 <directory>${basedir}/src/main/resources</directory>
                 <filtering>true</filtering>
@@ -39,7 +39,6 @@
                     <include>**/*.xml</include>
                 </includes>
             </resource>
-            <!--打包排除哪些配置信息不被去掉-->
             <resource>
                 <directory>${basedir}/src/main/resources</directory>
                 <excludes>
@@ -50,7 +49,6 @@
             </resource>
         </resources>
     </build>
-    <!--加载配置信息 end-->
     <!--开发者信息描述 start-->
     <developers>
         <developer>
