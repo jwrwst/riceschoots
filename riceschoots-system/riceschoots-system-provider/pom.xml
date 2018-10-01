@@ -95,12 +95,13 @@
         </dependency>
 
 
-        <!--数据源相关包 start-->
+        <!--数据源相关包 start
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.0.24</version>
         </dependency>
+        -->
 
         <dependency>
             <groupId>com.h2database</groupId>
@@ -109,15 +110,14 @@
 
         <!--数据源相关包end -->
 
-        <!-- dubbox start -->
+        <!-- dubbox start
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>2.6.1</version>
         </dependency>
-        <!-- dubbox end -->
-
-        <!-- zookeeper start -->
+         -->
+        <!-- zookeeper start
         <dependency>
             <groupId>com.netflix.curator</groupId>
             <artifactId>curator-framework</artifactId>
@@ -133,7 +133,7 @@
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
-        <!-- zookeeper end -->
+         -->
 
     </dependencies>
 
