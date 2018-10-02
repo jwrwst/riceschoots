@@ -1,4 +1,4 @@
-package cn.riceschoots.api.framework.datasource;
+package cn.riceschoots.provider.framework.datasource;
 
 public enum DynamicDataSourceGlobal {
     /**

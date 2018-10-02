@@ -1,4 +1,4 @@
-package cn.riceschoots.api.user.dto;
+package cn.riceschoots.api.user.model;
 
 import java.io.Serializable;
 
@@ -13,5 +13,5 @@ public class User implements Serializable {
 
     private Integer age;
 
-    private Integer name;
+    private String name;
 }

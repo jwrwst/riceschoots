@@ -1,4 +1,5 @@
-package cn.riceschoots.api.framework.datasource;
+package cn.riceschoots.provider.framework.datasource;
+import cn.riceschoots.provider.framework.exception.SystemException;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -148,7 +149,7 @@ public class DynamicDataSourceRegister implements ImportBeanDefinitionRegistrar,
         try {
             return sessionFactory.getObject();
         } catch (Exception e) {
-            throw new SysException(e);
+            throw new SystemException(e);
         }
     }
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.riceschoots.provider.user.model.UserMapper">
+
+	<!--根据shopifyid删除用户信息-->
+	<update id="updateUserName">
+        UPDATE user_info SET `name` = #{name} where id =#{userId}
+	</update>
+
+	<!--根据shopify用户ID获取用户主键ID-->
+	<select id="getUserInfoById" parameterType="java.lang.Long" resultType="cn.riceschoots.api.user.model.User">
+		SELECT * FROM user_info WHERE id = #{userId}
+	</select>
+
+
+</mapper>

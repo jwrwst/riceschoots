@@ -1,4 +1,4 @@
-package cn.riceschoots.api.framework.datasource;
+package cn.riceschoots.provider.framework.datasource;
 
 import java.util.ArrayList;
 import java.util.List;

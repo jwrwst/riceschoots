@@ -1,5 +1,5 @@
-package cn.riceschoots.api;
-import cn.riceschoots.api.framework.datasource.DynamicDataSourceRegister;
+package cn.riceschoots.provider;
+import cn.riceschoots.provider.framework.datasource.DynamicDataSourceRegister;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.Banner;

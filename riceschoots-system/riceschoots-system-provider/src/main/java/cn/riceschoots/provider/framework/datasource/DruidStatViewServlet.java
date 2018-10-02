@@ -1,4 +1,4 @@
-package cn.riceschoots.api.framework.datasource;
+package cn.riceschoots.provider.framework.datasource;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 
