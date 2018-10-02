@@ -27,7 +27,7 @@ public class UserWalletSerivceImpl implements IUserWalletSerivce {
 
 
     @Override
-    @TargetDataSource(name = "write")
+//    @TargetDataSource(name = "write")
     public User getUserInfoById(Long userId) {
         User userinfo = userMapper.getUserInfoById(userId);
         System.out.println("================"+userinfo.toString());

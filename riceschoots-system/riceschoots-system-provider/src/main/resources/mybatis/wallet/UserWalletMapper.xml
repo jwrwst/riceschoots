@@ -10,7 +10,7 @@
     </update>
 
     <!--根据shopify用户ID获取用户主键ID-->
-    <select id="getUserWalletById" parameterType="java.lang.Long" resultType="cn.riceschoots.api.user.model.User">
+    <select id="getUserWalletById" parameterType="java.lang.Long" resultType="cn.riceschoots.api.wallet.model.UserWallet">
         SELECT * FROM user_wallet WHERE user_id = #{userId}
     </select>
 

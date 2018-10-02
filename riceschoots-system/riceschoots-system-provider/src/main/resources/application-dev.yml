@@ -49,7 +49,7 @@ spring:
       # 合并多个DruidDataSource的监控数据
       #spring.datasource.useGlobalDataSourceStat=true
     cemarose:
-      url: jdbc:mysql://127.0.0.1:3306/user_wallet_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+      url: jdbc:mysql://127.0.0.1:3306/user_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
       username: root
       password: mile.root
       driver-class-name: com.mysql.jdbc.Driver
