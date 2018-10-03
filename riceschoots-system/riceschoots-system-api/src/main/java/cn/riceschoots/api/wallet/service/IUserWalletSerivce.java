@@ -1,6 +1,7 @@
 package cn.riceschoots.api.wallet.service;
 
 import cn.riceschoots.api.user.model.User;
+import cn.riceschoots.api.wallet.model.UserWallet;
 
 /**
  * @Description
@@ -11,5 +12,5 @@ public interface IUserWalletSerivce {
 
     User getUserInfoById(Long userId);
 
-    void getUserWallet(Long userId);
+    UserWallet getUserWallet(Long userId);
 }
